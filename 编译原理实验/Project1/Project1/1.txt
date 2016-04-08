@@ -1,0 +1,7 @@
+Const num= 100;
+var a1,1c11;
+be;a123a<aa$g#in
+read( a1);
+b2:=a1+num;
+write( a1, b2);
+end.

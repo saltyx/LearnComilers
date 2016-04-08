@@ -1,2 +1,2 @@
-# LearnComilers
-学习编译器
+# 编译原理实验
+pl0 
