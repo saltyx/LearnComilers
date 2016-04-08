@@ -117,14 +117,12 @@ void Syntax::HandleLines(char *str) {
 				//如果当前字符是数字，有可能是之后的字符是数字
 				k = 0; str[k++] = now;
 				get_next;
-
 				bool flag_number = true;//判断是否为非法标识符
 				while (now != '\0'
-					&& (isdigit(now) || isalpha(now))) {
-					if (isalpha(now)) {
+					&& (isdigit(now) || !Check_Separator(now))) {
+					if (!isdigit(now)) {
 						flag_number = false;
-						while (now &&
-							((isalpha(now)) || isdigit(now))) get_next;
+						while (now && !Check_Separator(now) ) get_next;//如果不是数字就一直忽略直到分隔符为止
 #ifdef DEBUG
 						cout << "标识符错误！\n";
 						cout << "\n按任意键退出\n";

@@ -1,7 +1,6 @@
 ﻿  syntax.cpp
-  正在生成代码...
-  正在编译...
   main.cpp
   正在生成代码...
-  Project1.vcxproj -> E:\编译原理\实验\Project1\Debug\Project1.exe
-  Project1.vcxproj -> E:\编译原理\实验\Project1\Debug\Project1.pdb (Partial PDB)
+  LINK : 没有找到 E:\Repo\LearnCompilers\编译原理实验\Project1\Debug\Project1.exe 或上一个增量链接没有生成它；正在执行完全链接
+  Project1.vcxproj -> E:\Repo\LearnCompilers\编译原理实验\Project1\Debug\Project1.exe
+  Project1.vcxproj -> E:\Repo\LearnCompilers\编译原理实验\Project1\Debug\Project1.pdb (Partial PDB)
